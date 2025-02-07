@@ -1,0 +1,3 @@
+# Ruby: Bypassing Encapsulation via instance_variable_set
+
+This example demonstrates a potential issue in Ruby where directly manipulating instance variables using `instance_variable_set` can lead to unexpected behavior and break the principles of encapsulation.  While sometimes useful for metaprogramming, it's generally best avoided for standard object interactions.  This is especially problematic in larger codebases where it can make debugging and maintaining code much harder.
